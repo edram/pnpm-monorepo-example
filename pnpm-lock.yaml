@@ -1,0 +1,13 @@
+lockfileVersion: '6.0'
+
+importers:
+
+  .: {}
+
+  packages/app:
+    dependencies:
+      '@package/core':
+        specifier: 1.0.0
+        version: link:../core
+
+  packages/core: {}
